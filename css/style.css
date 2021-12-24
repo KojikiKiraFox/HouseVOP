@@ -45,10 +45,7 @@ button{
 /* bgi */
 
 .bgi{
-    background-image: url(../img/bgi/Rectangle.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/bgi/Rectangle.png);
 }
 
 /* bgi */
@@ -72,19 +69,29 @@ button{
 }
 
 .header__nav__link{
-    color: #000;
+    color: #fff;
 }
 
 /* header */
 
 /* hero */
 
+.hero{
+    padding: 250px 0 75px;
+}
+
 .hero__title__text{
     text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F;
+    margin-bottom: 100px;
 }
 
 .hero__button{
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .hero__untitle{
@@ -96,4 +103,94 @@ button{
     margin-right: 100px;
 }
 
+
+.hero__untitle__number__img,
+.hero__untitle__address__img{
+    align-items: center;
+}
+
+.hero__untitle__number,
+.hero__untitle__address{
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
 /* hero */
+
+/* info */
+
+.info{
+    background: #242B33;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.info__items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__item{
+    max-width: 200px;
+    width: 100%;
+}
+
+.info__item__image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.info__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+}
+
+/* info */
+
+/* apartament */
+
+.apartament{
+    padding-top: 20px;
+    background: #242B33;
+}
+
+.apartament__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.apartament__title__text{
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+
+.apartement__item__txt{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.apartament__item{
+    padding-top: 250px;
+    padding-left: 50px;
+    width: 520px;
+    height: 320px;
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(../img/apartament/Rectangle.png);
+}
+
+.apartament__item:nth-child(odd){
+    margin-right: 30px;
+}
+.apartament__item:nth-child(1){
+    margin-bottom: 30px;
+}
+/* apartament */
