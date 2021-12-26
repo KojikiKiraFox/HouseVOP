@@ -56,6 +56,10 @@ input {
 
 /* header */
 
+.header{
+	padding-top: 30px;
+}
+
 .header__items {
 	display: flex;
 	justify-content: space-between;
@@ -428,3 +432,52 @@ input {
 }
 
 /* footer */
+
+
+@media (max-width:1110px){
+	.container{
+		width: 90%;
+	}
+
+	.watch__right-text{
+		display: none;
+	}
+}
+
+@media(max-width:755px){
+	.video{
+		display: none;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.header__items{
+		justify-content: center;
+}
+}
+
+@media(max-width:600px){
+	.watch__items-right{
+		display: none;
+	}
+
+	.apartament{
+		display: none;
+	}
+
+	.info__items{
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width:435px){
+	.header__nav__item:nth-child(1){
+		display: none;
+	}
+
+	.hero__untitle__address{
+		margin-right: 10px;
+	}
+}
