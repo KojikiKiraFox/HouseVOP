@@ -17,6 +17,7 @@ a,
 ul {
 	text-decoration: none;
 	list-style-type: none;
+	transition: .3s;
 }
 
 h1,
@@ -57,7 +58,7 @@ input {
 /* header */
 
 .header{
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .header__items {
@@ -79,6 +80,11 @@ input {
 .header__nav__link {
 	color: #fff;
 }
+
+.logo{
+	padding-bottom: 40px;
+}
+
 
 /* header */
 
@@ -433,6 +439,9 @@ input {
 
 /* footer */
 
+a:hover{
+	text-decoration: underline;
+}
 
 @media (max-width:1110px){
 	.container{
